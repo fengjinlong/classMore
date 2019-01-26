@@ -8,7 +8,6 @@
   export default {
     methods: {
       click () {
-        console.log('click')
         this.$router.push('/nested/mm')
       }
     }

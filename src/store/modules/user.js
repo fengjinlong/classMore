@@ -17,7 +17,6 @@ const user = {
       state.name = name
     },
     SET_AVATAR: (state, avatar) => {
-      console.log(avatar)
       state.avatar = avatar
     },
     SET_ROLES: (state, roles) => {

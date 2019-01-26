@@ -32,7 +32,6 @@ export default {
 
 
       // 当前是返回所有不带hidden为true的路由作为菜单路由
-      console.log(this.$router)
       return this.$router.options.routes
     },
     isCollapse() {

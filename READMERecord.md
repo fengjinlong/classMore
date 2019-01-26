@@ -32,4 +32,6 @@
 十 拦截器在permission里面
 十一 缓存需要配置项
 
+文件及文件夹的命名首字母不要大写
+
 icon  https://www.iconfont.cn/collections/detail?cid=10328

@@ -17,7 +17,6 @@ export default {
   },
   created() {
     getValiCode().then(res => {
-      console.log(res)
     })
   },
   name: 'Dashboard',

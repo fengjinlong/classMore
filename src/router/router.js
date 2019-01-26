@@ -48,12 +48,111 @@ const allRouterMap = [
     ]
   },
   {
+    path: '/11',
+    component: Layout,
+    redirect:'',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'banana'
+    },
+    children: []
+  },
+  {
+    path: '/1112',
+    component: Layout,
+    redirect:'',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'apple'
+    },
+    children: []
+  },
+  {
+    path: '/21',
+    component: Layout,
+    redirect:'/',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'blueberry'
+    },
+    children: []
+  },
+  {
+    path: '/32',
+    component: Layout,
+    redirect:'',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'carambola'
+    },
+    children: []
+  },
+  {
+    path: '/34',
+    component: Layout,
+    redirect:'',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'grape'
+    },
+    children: []
+  },
+  {
+    path: '/45',
+    component: Layout,
+    redirect:'',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'peach'
+    },
+    children: []
+  },
+  {
+    path: '/56',
+    component: Layout,
+    redirect:'',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'watermelon'
+    },
+    children: []
+  },
+  {
+    path: '/12',
+    component: Layout,
+    redirect:'',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'strawberry'
+    },
+    children: []
+  },
+  {
+    path: '/22',
+    component: Layout,
+    redirect:'',
+    name: '111',
+    meta: {
+      title: '添加',
+      icon: 'pineapple'
+    },
+    children: []
+  },
+  {
     path: '/nested',
     component: Layout,
     redirect: '/menu1',
     name: 'Nested',
     meta: {
-      title: '添加',
+      title: '添加1',
       icon: 'hlg'
 
     },

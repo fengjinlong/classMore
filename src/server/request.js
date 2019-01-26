@@ -1,6 +1,5 @@
 import axios from './axios'
 import { Message } from 'element-ui'
-console.log(this)
 export default (url = '', data = {}, type = 'GET') => {
   type = type.toUpperCase()
   return new Promise((resolve, reject) => {
