@@ -1,5 +1,5 @@
 /* Layout */
-import Layout from '../views/layout/Layout'
+import Layout from '../views/layout/layout'
 
 // 配置公共router-view组件容器
 const CommonView = () => import('@/components/commonView/commonView.vue')
@@ -35,7 +35,7 @@ const allRouterMap = [
     children: [
       {
         path: '/vipc',
-        meta:{title:'IVP'},
+        meta:{title:'IVP',icon: 'cherry'},
         name: 'vv',
         component: () => import('@/views/nested/menu1/secondary.vue'), 
       },
